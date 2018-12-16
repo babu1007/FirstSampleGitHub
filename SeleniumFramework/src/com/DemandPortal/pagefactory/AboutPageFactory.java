@@ -1,10 +1,10 @@
-package com.Schneider.DemandPortal.pagefactory;
+package com.DemandPortal.pagefactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.Schneider.commonUtils.FrameworkUtil;
+import com.commonUtils.FrameworkUtil;
 
 public class AboutPageFactory
 {

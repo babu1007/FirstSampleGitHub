@@ -1,4 +1,4 @@
-package com.Schneider.commonUtils;
+package com.commonUtils;
 
 
 
@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import com.Schneider.commonUtils.WebDriverUtil;
+import com.commonUtils.WebDriverUtil;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.Schneider.DemandPortal.testcases;
+package com.DemandPortal.testcases;
 
 
 
@@ -13,11 +13,11 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.Schneider.commonUtils.FrameworkUtil;
-import com.Schneider.commonUtils.LoggerUtil;
-import com.Schneider.commonUtils.WebDriverUtil;
-import com.Schneider.commonUtils.WebObjectUtil;
-import com.Schneider.DemandPortal.pagefactory.LoginTestPageFactory;
+import com.DemandPortal.pagefactory.LoginTestPageFactory;
+import com.commonUtils.FrameworkUtil;
+import com.commonUtils.LoggerUtil;
+import com.commonUtils.WebDriverUtil;
+import com.commonUtils.WebObjectUtil;
 
 public class LoginTestCase {
 	//String sSummaryURL = LoginTestCase.sSummaryURL;

@@ -1,4 +1,4 @@
-package com.Schneider.DemandPortal.testcases;
+package com.DemandPortal.testcases;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -16,11 +16,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.Schneider.DemandPortal.pagefactory.AboutPageFactory;
-import com.Schneider.commonUtils.FrameworkUtil;
-import com.Schneider.commonUtils.LoggerUtil;
-import com.Schneider.commonUtils.WebDriverUtil;
-import com.Schneider.commonUtils.WebObjectUtil;
+import com.DemandPortal.pagefactory.AboutPageFactory;
+import com.commonUtils.FrameworkUtil;
+import com.commonUtils.LoggerUtil;
+import com.commonUtils.WebDriverUtil;
+import com.commonUtils.WebObjectUtil;
 
 
 

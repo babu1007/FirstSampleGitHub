@@ -1,4 +1,4 @@
-package com.Schneider.DemandPortal.testcases;
+package com.DemandPortal.testcases;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-import com.Schneider.commonUtils.FrameworkUtil;
-import com.Schneider.commonUtils.LoggerUtil;
-import com.Schneider.commonUtils.WebDriverUtil;
-import com.Schneider.commonUtils.WebObjectUtil;
+import com.commonUtils.FrameworkUtil;
+import com.commonUtils.LoggerUtil;
+import com.commonUtils.WebDriverUtil;
+import com.commonUtils.WebObjectUtil;
 
 public class TestScriptTemplate {
 

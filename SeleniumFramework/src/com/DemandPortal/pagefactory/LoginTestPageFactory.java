@@ -1,4 +1,4 @@
-package com.Schneider.DemandPortal.pagefactory;
+package com.DemandPortal.pagefactory;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.Schneider.commonUtils.FrameworkUtil;
-import com.Schneider.commonUtils.WebObjectUtil;
+import com.commonUtils.FrameworkUtil;
+import com.commonUtils.WebObjectUtil;
 
 public class LoginTestPageFactory {
 	

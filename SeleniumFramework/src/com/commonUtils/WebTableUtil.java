@@ -1,4 +1,4 @@
-package com.Schneider.commonUtils;
+package com.commonUtils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

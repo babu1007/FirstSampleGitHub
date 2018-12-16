@@ -1,4 +1,4 @@
-package com.Schneider.commonUtils;
+package com.commonUtils;
 
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.Schneider.DemandPortal.testcases;
+package com.DemandPortal.testcases;
 
 
 
@@ -16,13 +16,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-import com.Schneider.DemandPortal.pagefactory.AboutPageFactory;
-import com.Schneider.DemandPortal.pagefactory.verify;
-import com.Schneider.commonUtils.FrameworkUtil;
-import com.Schneider.commonUtils.LoggerUtil;
-import com.Schneider.commonUtils.WebDriverUtil;
-import com.Schneider.commonUtils.WebObjectUtil;
-import com.Schneider.commonUtils.WebTableUtil;
+import com.DemandPortal.pagefactory.AboutPageFactory;
+import com.DemandPortal.pagefactory.verify;
+import com.commonUtils.FrameworkUtil;
+import com.commonUtils.LoggerUtil;
+import com.commonUtils.WebDriverUtil;
+import com.commonUtils.WebObjectUtil;
+import com.commonUtils.WebTableUtil;
 
 
 public class VerifyResults {
