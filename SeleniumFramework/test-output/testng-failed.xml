@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NavigatorSuite]" parallel="none">
+  <parameter name="WorkspacePath" value="/SeleniumAutomationTesting/"/>
+  <parameter name="UseNewBrowserForEachTest" value="true"/>
+  <parameter name="OperatingSystemName" value="WINDOWS"/>
+  <parameter name="runningPlatform" value="local"/>
+  <parameter name="TestDatapropertyFileName" value="Navigator_TestData.properties"/>
+  <parameter name="AntParameter" value="debug"/>
+  <parameter name="browser" value="FIREFOX"/>
+  <parameter name="browserVersion" value="11"/>
+  <parameter name="pickBrowserBasedOnDay" value="false"/>
+  <parameter name="OperatingSystemVersion" value="7"/>
+  <test name="NavigatorTest-Smoke(failed)" parallel="none">
+    <classes>
+      <class name="com.Schneider.DemandPortal.testcases.SmokeTestCase">
+        <methods>
+          <include name="afterEachMethod"/>
+          <include name="afterTest"/>
+          <include name="fileupload"/>
+        </methods>
+      </class> <!-- com.Schneider.DemandPortal.testcases.SmokeTestCase -->
+      <class name="com.Schneider.DemandPortal.testcases.Startup_debug">
+        <methods>
+          <include name="quitWebDriver"/>
+          <include name="afterEachMethod"/>
+          <include name="initWebDriver"/>
+        </methods>
+      </class> <!-- com.Schneider.DemandPortal.testcases.Startup_debug -->
+    </classes>
+  </test> <!-- NavigatorTest-Smoke(failed) -->
+</suite> <!-- Failed suite [NavigatorSuite] -->
